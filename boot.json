@@ -1,0 +1,18 @@
+{
+  "version": "1.1.0",
+  "core": [
+    "core/event-bus.js",
+    "core/constants.js",
+    "core/utils/id.js",
+    "core/utils/object.js",
+    "core/storage.js",
+    "core/state-manager.js",
+    "core/bootstrap.js"
+  ],
+  "modules": [],
+  "required": ["event-bus", "storage", "state"],
+  "minimumBrowser": {
+    "indexedDB": true,
+    "crypto": true
+  }
+}
